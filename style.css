@@ -462,3 +462,82 @@ iframe {
     opacity: 1;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.loginsocial{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.button {
+	height: 35px;
+	padding: 0;
+	background: #a52b2b;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	overflow: hidden;
+	font-family: "Quicksand", sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+    margin-top: 6px;
+}
+
+#buttongithub{
+    background: #1d1c1c;
+}
+
+#buttongithub:hover{
+    background: #000000;
+}
+
+#buttonlinkedin{
+    background: #273780;
+}
+
+#buttonlinkedin:hover{
+    background: #0c248f;
+}
+
+
+.button:hover {
+	background: #9c1616;
+}
+
+
+.button__text{
+  display: inline-flex;
+  align-items: center;
+  padding: 0px 14px;
+  color: #fff;
+  height: 100%;
+  font-size: 10px;
+}
+
+#fa-google {
+  font-size: 10px;
+    margin-right: 17px;
+}
+.fa-linkedin-in{
+  font-size: 10px;
+    margin-right: 17px;
+}
+
+.fa-github{
+  font-size: 10px;
+    margin-right: 17px;
+}
