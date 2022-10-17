@@ -358,7 +358,7 @@ iframe {
     width: 254px;
   }
   #login100-pic-register{
-    width: 254px;
+    /*width: 254px;*/
   }
 
   .login100-form {
@@ -380,7 +380,8 @@ iframe {
 
   .login100-form {
     width: 100%;
-    margin-top: 29px;
+    padding: 0px 128px 0px;
+     /*margin-top: 29px;*/
   }
 }
 
@@ -595,7 +596,7 @@ input:checked ~ .text:before{
 }
 
 
-select{
+#estado{
   margin-bottom: 10px;
 }
 
