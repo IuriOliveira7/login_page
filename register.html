@@ -1,175 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--CSS-->
-    <link rel="stylesheet" href="style.css">
+	<!--CSS-->
 
-    <!--CSS-BOOTSTRAP-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="logcad.css">
 
+	<!--CSS-BOOTSTRAP ICONES-->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
 
-    <title>Cadastro</title>
+	<title>Cadastro</title>
+
 </head>
+
 <body>
-    <div class="limiter">
-		<div class="container-login100">
-			<div class="wrap-login100" id="wrap-login100-register">
-				<div class="login100-pic js-tilt" id="login100-pic-register">
-					<!--<img src="img/capa-register.png" alt="IMG">-->
 
+	<div id="page1" class="w3-container city">
+		<div class="containerLR">
+			<div class="subcontainerLR">
+				<span class="titleLR">Cadastro</span>
+				<div class="imgR">
+					<img src="img/capa-register.png" alt="IMG">
 
+				</div>
 
-					<span class="login100-form-title">
-						Cadastro
-					</span>
+				<div class="formLR">
 
-                    <div class="wrap-input100 validate-input">
+					<div class="inputcontainer">
 						<input class="input100" type="text" name="text" placeholder="Primeiro nome">
 						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<i class="fa fa-address-book" aria-hidden="true"></i>
-						</span>
+						<span class="symbol-input100"><i class="fa fa-address-book" aria-hidden="true"></i></span>
 					</div>
 
-                    <div class="wrap-input100 validate-input">
+					<div class="inputcontainer">
 						<input class="input100" type="text" name="text" placeholder="Sobrenome">
 						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<i class="fa fa-address-book" aria-hidden="true"></i>
-						</span>
+						<span class="symbol-input100"><i class="fa fa-address-book" aria-hidden="true"></i></span>
 					</div>
 
-					<div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+					<div class="inputcontainer" data-validate="Valid email is required: ex@abc.xyz">
 						<input class="input100" type="text" name="email" placeholder="Email">
 						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
-						</span>
+						<span class="symbol-input100"><i class="fa fa-envelope" aria-hidden="true"></i></span>
 					</div>
 
-					<div class="wrap-input100 validate-input">
+					<div class="inputcontainer">
 						<input class="input100" type="date" name="date" placeholder="Data de Nascimento">
 						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<i class="fa fa-calendar-o" aria-hidden="true"></i>
-						</span>
-					</div>
-	
-                    <div class="wrap-input100 validate-input">
-						<input class="input100" data-input name="text" placeholder="CEP">
-						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<i class="fa fa-map-marker" aria-hidden="true"></i>
-						</span>
+						<span class="symbol-input100"><i class="fa fa-calendar"></i></span>
 					</div>
 
-                    <div class="wrap-input100 validate-input">
-						<input class="input100" type="text" name="text" placeholder="Rua">
-						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<i class="fa fa-map-marker" aria-hidden="true"></i>
-						</span>
-					</div>
 
-                    <div class="wrap-input100 validate-input">
-						<input class="input100" type="text" name="text" placeholder="Bairro">
-						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<i class="fa fa-map-marker" aria-hidden="true"></i>
-						</span>
-					</div>
-
-                    <div class="wrap-input100 validate-input">
-						<input class="input100" data-input name="text" placeholder="Número">
-						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<i class="fa fa-map-marker" aria-hidden="true"></i>
-						</span>
-					</div>
-					
-				</div>
-
-				<form class="login100-form validate-form">
-				
-
-
-					<div class="wrap-input100 validate-input">
-						<input class="input100" type="text" name="text" placeholder="Complemento">
-						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<i class="fa fa-map-marker" aria-hidden="true"></i>
-						</span>
-					</div>
-
-					
-					<div class="wrap-input100 validate-input">
-						<input class="input100" type="text" name="text" placeholder="Cidade ">
-						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<i class="fa fa-map-marker" aria-hidden="true"></i>
-						</span>
-					</div>
-						
-
-
-					<div class="wrap-input100 validate-input">
-					<input class="input100" list="estados" id="estado" placeholder="Estados" />
-					<span class="focus-input100"></span>
-					<span class="symbol-input100">
-						<i class="fa fa-map-marker" aria-hidden="true"></i>
-					</span>
-					<datalist id="estados">
-						<option value="AC">Acre</option>
-						<option value="AL">Alagoas</option>
-						<option value="AP">Amapá</option>
-						<option value="AM">Amazonas</option>
-						<option value="BA">Bahia</option>
-						<option value="CE">Ceará</option>
-						<option value="DF">Distrito Federal</option>
-						<option value="ES">Espírito Santo</option>
-						<option value="GO">Goiás</option>
-						<option value="MA">Maranhão</option>
-						<option value="MT">Mato Grosso</option>
-						<option value="MS">Mato Grosso do Sul</option>
-						<option value="MG">Minas Gerais</option>
-						<option value="PA">Pará</option>
-						<option value="PB">Paraíba</option>
-						<option value="PR">Paraná</option>
-						<option value="PE">Pernambuco</option>
-						<option value="PI">Piauí</option>
-						<option value="RJ">Rio de Janeiro</option>
-						<option value="RN">Rio Grande do Norte</option>
-						<option value="RS">Rio Grande do Sul</option>
-						<option value="RO">Rondônia</option>
-						<option value="RR">Roraima</option>
-						<option value="SC">Santa Catarina</option>
-						<option value="SP">São Paulo</option>
-						<option value="SE">Sergipe</option>
-						<option value="TO">Tocantins</option>
-					</datalist>
-				</div>
-
-
-					<div class="wrap-input100 validate-input" data-validate="Password is required">
+					<div class="inputcontainer" data-validate="Password is required">
 						<input class="input100" type="password" name="pass" placeholder="Senha">
 						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<i class="fa fa-lock" aria-hidden="true"></i>
-						</span>
+						<span class="symbol-input100"><i class="fa fa-lock" aria-hidden="true"></i></span>
 					</div>
 
-                    <div class="wrap-input100 validate-input" data-validate="Password is required">
+
+					<div class="inputcontainer" data-validate="Password is required">
 						<input class="input100" type="password" name="pass" placeholder="Confirmar Senha">
 						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<i class="fa fa-lock" aria-hidden="true"></i>
-						</span>
+						<span class="symbol-input100"><i class="fa fa-lock" aria-hidden="true"></i></span>
 					</div>
+
+
+					<button class="btnLR" onclick="openCity('page2')">PROXIMO</button>
+
+
+
+					<div class="text-center p-t-136">
+						<a class="login" href="login.html">Fazer login</a>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<div id="page2" class="w3-container city" style="display:none">
+		<div class="containerLR">
+			<div class="subcontainerLR">
+				<span class="titleLR">Cadastro</span>
+				<div class="imgR">
+					<img src="img/capa-register.png" alt="IMG">
+				</div>
+
+
+
+
+				<div class="formLR">
+
+					<div class="inputcontainer">
+						<input class="input100" data-input name="text" placeholder="CEP">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+					</div>
+
+					<div class="inputcontainer">
+						<input class="input100" type="text" name="text" placeholder="Rua">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+					</div>
+
+					<div class="inputcontainer">
+						<input class="input100" type="text" name="text" placeholder="Bairro">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+					</div>
+
+					<div class="inputcontainer">
+						<input class="input100" data-input name="text" placeholder="Número">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+					</div>
+
+					<div class="inputcontainer">
+						<input class="input100" type="text" name="text" placeholder="Complemento">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+					</div>
+
+
+					<div class="inputcontainer">
+						<input class="input100" type="text" name="text" placeholder="Cidade ">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+					</div>
+
+
+
+					<div class="inputcontainer">
+						<input class="input100" list="estados" id="estado" placeholder="Estados" />
+						<span class="focus-input100"></span>
+						<span class="symbol-input100"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+						<datalist id="estados">
+							<option value="AC">Acre</option>
+							<option value="AL">Alagoas</option>
+							<option value="AP">Amapá</option>
+							<option value="AM">Amazonas</option>
+							<option value="BA">Bahia</option>
+							<option value="CE">Ceará</option>
+							<option value="DF">Distrito Federal</option>
+							<option value="ES">Espírito Santo</option>
+							<option value="GO">Goiás</option>
+							<option value="MA">Maranhão</option>
+							<option value="MT">Mato Grosso</option>
+							<option value="MS">Mato Grosso do Sul</option>
+							<option value="MG">Minas Gerais</option>
+							<option value="PA">Pará</option>
+							<option value="PB">Paraíba</option>
+							<option value="PR">Paraná</option>
+							<option value="PE">Pernambuco</option>
+							<option value="PI">Piauí</option>
+							<option value="RJ">Rio de Janeiro</option>
+							<option value="RN">Rio Grande do Norte</option>
+							<option value="RS">Rio Grande do Sul</option>
+							<option value="RO">Rondônia</option>
+							<option value="RR">Roraima</option>
+							<option value="SC">Santa Catarina</option>
+							<option value="SP">São Paulo</option>
+							<option value="SE">Sergipe</option>
+							<option value="TO">Tocantins</option>
+						</datalist>
+					</div>
+
 
 
 
@@ -179,49 +183,28 @@
 					<div class="checkbox">
 						<input type="checkbox" id="click">
 						<label for="click" class="text"></label>
-					  </div>
-
-
-
-
-
-
-
-					
-					<div class="container-login100-form-btn">
-						<button class="login100-form-btn">
-							Registrar
-						</button>
-					</div>
-
-
-					<div class="loginsocial">
-						<div type="button" class="button" id="buttongoogle">
-							<a class="button__text"><i class="fab fa-google fa-3x" id="fa-google"></i>Entrar com Google</a>
-						</div>
-						<div type="button" class="button" id="buttongithub">
-							<a class="button__text"><i class="fab fa-github"></i>Entrar com GitHub</a>
-						</div>
-						<div type="button" class="button" id="buttonlinkedin">
-							<a class="button__text"><i class="fab fa-facebook-f"></i>Entrar com Facebook</a>
-						</div>
-						</div>
-
-
-
-					<div class="text-center p-t-136">
-						<a class="txt2" href="login.html">
-							Fazer login
-							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
-						</a>
 					</div>
 
 
 
 
-				</form>
+
+					<button class="btnLR" onclick="openCity('page1')">CONFIRMAR</button>
+
+
+
+				</div>
 			</div>
 		</div>
 	</div>
+
+
+
+
+
+
+
+
+	<script type="text/javascript" src="logcad.js"></script>
 </body>
 </html>
