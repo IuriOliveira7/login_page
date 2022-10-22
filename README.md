@@ -1,7 +1,9 @@
 TELA DE LOGIN:
 
-![image](https://user-images.githubusercontent.com/80722767/196008918-15f6b7ba-bbe1-4eba-b2ea-32e301f35e0a.png)
+![login](https://user-images.githubusercontent.com/80722767/197346165-02232054-ed37-4c75-bf35-bd1773cfdc64.png)
+
 
 TELA DE CADASTRO:
 
-![image](https://user-images.githubusercontent.com/80722767/196008930-7c34fd8d-a888-4ba2-aa3a-8ea3aac39d60.png)
+![register](https://user-images.githubusercontent.com/80722767/197346170-58acbb62-69b4-4a00-8ee7-4494a66eadeb.png)
+
